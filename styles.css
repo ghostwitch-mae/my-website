@@ -1,4 +1,11 @@
+.mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
 body, html {
+    font-family: Mystery Quest;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -52,6 +59,14 @@ body, html {
 #imgcredTag{
     color: white;
     text-align: right;
-    margin: 0;
+    margin: 0px 20px 0px 0px;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
