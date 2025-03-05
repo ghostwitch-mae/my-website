@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Mystery Quest;
+}
+
+#background-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#top_banner {
+    width: 100%;
+}
+
+#backgroundimg {
+    width: 100%;
+}
+
+
+#IntroHeading {
+    position: absolute;
+    top: 10%; /* Adjust vertical positioning as needed */
+    left: 50%; /* Center horizontally within the bodyofpage */
+    transform: translateX(-50%); /* Shift back by half its width */
+    width: 90%; /* Match the width of bodyofpage */
+    text-align: center;
+    z-index: 20;
+    color: black;
+    font-size: 24px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    max-width: 300px; /* Limit the maximum width of the box */
+    margin: 0 auto; /* Center the box */
+    border-radius: 10px;
+    }
+
+
+#bodyofpage {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 50%; /* Increased height to extend downwards */
+    z-index: 10;
+}
+
+
+#me {
+    flex: 1;
+    width: 25%;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+    border-width: 5px;
+    border-style: dashed;
+}
+
+#actualtextstuff{
+    flex: 1;
+    text-decoration: none;
+    
+}
+
+#contact{
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
