@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Mystery Quest;
+    background-color: #850220;
     
 }
 a:link, a:visited {
@@ -36,38 +37,75 @@ a:link, a:visited {
 }
 
 #contact{
-    padding-bottom: 5px;
-    margin-bottom: 20px;
     color: white;
+    margin-bottom: 10px;
+    padding: 10px;
     text-align: center;
     background-color: black;
 }
 
-#background-body{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0px;
-    padding: 0%;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-#flex-container-aboutme{
-    display: flex;
-    flex-direction: row;
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
 }
 
-#nestedFlex{
-    background-color: #850220;
+.profile-section {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-#aboutmeText{
-    flex: 1;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
     margin: 10px;
-    padding: 5px;;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: white;
 }
 
-#me{
-    width: 50%;
+.profile-image {
+    width: 250px;
+    height: 250px;
+    background-color: #E0E0E0;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #850220;
+}
+
+.profile-image span {
+    color: #888;
+    font-size: 16px;
+}
+
+.profile-content {
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 48px;
+    color: #850220;
+    margin: 0 0 10px 0;
+    line-height: 1;
+}
+
+.username {
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.bio {
+    background-color: #850220;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
 }
