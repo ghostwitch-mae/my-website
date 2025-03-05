@@ -70,8 +70,8 @@ a:link, a:visited {
 }
 
 .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     background-color: #E0E0E0;
     border-radius: 50%;
     margin-right: 30px;
@@ -108,4 +108,31 @@ a:link, a:visited {
     padding: 15px;
     border-radius: 10px;
     line-height: 1.6;
+}
+
+#another-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#hobbies-flex-container{
+    display: flex;
+    flex-direction: row;
+    color:#850220;
+}
+
+#hobbiestxt{
+    text-align: center;
+    color:#850220;
+}
+.hobbies-flex{
+    flex: 1;
+    color: white;
+    background-color:#850220;
+    border-radius: 10px;
+    text-align: center;
 }
