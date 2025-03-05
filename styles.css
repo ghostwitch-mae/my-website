@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: black;
+    color: white;
 }
 
 .flex-container {
@@ -13,7 +14,7 @@ body, html {
 }
 #headername{
     margin-left: 10px;
-    flex-grow: 10;
+    flex-grow: 9;
     padding: 5px;
     color: white;
     text-align: left;
@@ -29,7 +30,7 @@ body, html {
     text-align: center;
 }
 
-.container {
+.imgcontainer {
     position: relative;
     text-align: center;
     color: white;
@@ -38,11 +39,19 @@ body, html {
 #headerimg{
     width: 100%;
     opacity: 0.6;
+    padding: 0;
+    margin: 0;
 }
-#img-center {
+#img-center-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
+#imgcredTag{
+    color: white;
+    text-align: right;
+    margin: 0;
+}
 
