@@ -1,41 +1,52 @@
-
-
+.mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
 body, html {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Mystery Quest;
     margin: 0;
     padding: 0;
-    background-color: #4a0114;
+    background-color: black;
     color: white;
 }
-/*#440000, #880D1E*/
-#resumeheader{
-    text-align: center;
-    background-color: black;
-    padding: 5px;
-    margin-left: 70px;
-    margin-right: 70px;
-    border-radius: 10px;
 
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
 }
 
-#meow{
+.flex-container {
     display: flex;
     flex-direction: row;
+    padding: 10px;
+    background-color: black; /*rich burgandy #850220*/
 }
-
-.side-nav-container{
-    flex-direction: column;
-    background-color: black;
-    flex-grow: 0.1;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.side-nav{
-    margin: 5px;
+#headername{
+    margin-left: 10px;
+    flex-grow: 9;
     padding: 5px;
+    color: white;
+    text-align: left;
+}
+
+.header{
+    color: white;
+    width: 100vw;
+    max-width: 100%;
+    padding: 5px;
+    margin-right: 10px;
+    flex: 1;
     text-align: center;
 }
 
-#words{
-    margin-left: 20px;
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+p{
+    font-family: 'Times New Roman', Times, serif;
 }

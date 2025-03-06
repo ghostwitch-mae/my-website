@@ -76,3 +76,20 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+#placescontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#placecontainer2{
+    display: flex;
+    flex-direction: row;
+}
+
+.placesSection{
+    flex: 1;
+    margin: 10px;
+}
+.placesimg{
+    width: 100%;
+}
