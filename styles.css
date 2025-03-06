@@ -12,12 +12,17 @@ body, html {
     color: white;
 }
 
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     padding: 10px;
     background-color: black; /*rich burgandy #850220*/
-    
 }
 #headername{
     margin-left: 10px;

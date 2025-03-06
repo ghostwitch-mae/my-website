@@ -1,21 +1,39 @@
+.mystery-quest-regular {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
 body, html {
     margin: 0;
     padding: 0;
     font-family: Mystery Quest;
     background-color: #850220;
-    
 }
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: white;
   }
+
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
-    background-color: black; /*rich burgandy #850220*/
+    background-color: #4a0114; /*rich burgandy #850220*/
+    
     
 }
 #headername{
@@ -38,10 +56,11 @@ a:link, a:visited {
 
 #contact{
     color: white;
-    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 10px;
     text-align: center;
     background-color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -50,21 +69,12 @@ a:link, a:visited {
     padding: 20px;
 }
 
-.back-arrow {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-size: 24px;
-}
-
 .profile-section {
     display: flex;
     align-items: center;
     border-radius: 20px;
     padding: 30px;
-    margin: 10px;
+    margin: 40px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     background-color: white;
 }
@@ -116,7 +126,7 @@ a:link, a:visited {
     background-color: white;
     border-radius: 20px;
     padding: 5px;
-    margin: 5px;
+    margin: 40px;
 }
 
 #hobbies-flex-container{
@@ -129,10 +139,18 @@ a:link, a:visited {
     text-align: center;
     color:#850220;
 }
+
 .hobbies-flex{
     flex: 1;
     color: white;
     background-color:#850220;
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
+    margin: 10px;;
+}
+
+.mangaimg, #readingimg, #moviesimg, #sewingimg{
+    width: 100%;
+    border-radius: 10px;
 }
